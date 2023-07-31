@@ -14,7 +14,7 @@
     "needsBuild": true
   },
   "devDependencies": {
-    "@rcv-prod-toolkit/types": "github:rcv-prod-toolkit/types",
+    "@rcv-prod-toolkit/types": "github:rcv-prod-toolkit/types#global-state",
     "typescript": "^5.0.3"
   },
   "scripts": {
