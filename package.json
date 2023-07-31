@@ -1,0 +1,23 @@
+{
+  "name": "plugin-state",
+  "version": "0.1.0",
+  "description": "Central state provider and manager",
+  "author": "RCVolus",
+  "license": "MIT",
+  "toolkit": {
+    "modes": [
+      "PLUGIN"
+    ],
+    "plugin": {
+      "main": "dist/plugin.js"
+    },
+    "needsBuild": true
+  },
+  "devDependencies": {
+    "@rcv-prod-toolkit/types": "github:rcv-prod-toolkit/types",
+    "typescript": "^5.0.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
